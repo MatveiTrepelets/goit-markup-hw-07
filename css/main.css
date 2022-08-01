@@ -195,7 +195,7 @@ a:hover, a:focus {
   padding: 23px 0px;
 }
 
-.logo_footer {
+.logo-footer {
   color: var(--white-color);
   font-family: "Raleway";
   font-weight: 700;
@@ -515,7 +515,7 @@ ul {
   margin-left: 50px;
 }
 
-.footer_list .footer_item + .footer_item {
+.footer-list .footer-item + .footer-item {
   margin-top: 10px;
 }
 
@@ -645,7 +645,7 @@ textarea {
   -moz-appearance: none;
 }
 
-.bottom_input {
+.bottom-input {
   height: 50px;
   min-width: 350px;
   padding: 15px;
