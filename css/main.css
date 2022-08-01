@@ -30,7 +30,7 @@
   border-color: var(--brand-color);
 }
 
-.order_services_button {
+.orderservices {
   font-size: 16px;
   line-height: 1.9;
   display: flex;
@@ -47,7 +47,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order_services_button:hover, .order_services_button:focus {
+.orderservices:hover, .orderservices:focus {
   background-color: #188CE8;
 }
 
@@ -156,14 +156,14 @@ a:hover, a:focus {
   color: var(--second-color);
 }
 
-.contact_item {
+.contact {
   color: var(--second-color);
   fill: var(--second-color);
   transition-property: color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact_item:focus, .contact_item:hover {
+.contact:focus, .contact:hover {
   fill: var(--brand-color);
 }
 
@@ -185,7 +185,7 @@ a:hover, a:focus {
   font-style: normal;
 }
 
-.header_logo {
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -223,11 +223,11 @@ a:hover, a:focus {
   border: 1px solid var(--brand-color);
 }
 
-.contact_list {
+.contacts {
   display: flex;
   margin-left: auto;
 }
-.contact_list .telmail + .telmail {
+.contacts .telmail + .telmail {
   margin-left: 50px;
 }
 
@@ -267,7 +267,7 @@ a:hover, a:focus {
   bottom: 0;
 }
 
-.social_links_list {
+.sociallinkslist {
   padding-top: 16px;
   display: flex;
   justify-content: center;
@@ -283,7 +283,7 @@ a:hover, a:focus {
   margin-right: 0px;
 }
 
-.contact_item {
+.contact {
   display: flex;
   margin-right: 50px;
   justify-content: center;
@@ -303,7 +303,7 @@ a:hover, a:focus {
   color: var(--brand-color);
 }
 
-.our_strengths_svg {
+.ourstrengthssvg {
   height: 70px;
   width: 70px;
 }
@@ -414,12 +414,12 @@ a:hover, a:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.work_imges_list {
+.workimgeslist {
   display: flex;
   padding-left: 0px;
   margin-top: 0px;
 }
-.work_imges_list li + li {
+.workimgeslist li + li {
   margin-left: 30px;
 }
 
@@ -449,11 +449,11 @@ nav {
   display: flex;
 }
 
-.header_list {
+.navigation {
   display: flex;
 }
 
-.our_clients_list {
+.ourclientslist {
   display: flex;
 }
 
@@ -477,7 +477,7 @@ ul {
   padding: 0px 0px 0px 0px;
 }
 
-.our_strengths {
+.ourstrengths {
   display: flex;
   padding-top: 94px;
 }
@@ -492,11 +492,11 @@ ul {
   padding-left: 0px;
 }
 
-.our_strengths > .conteiner > .our_strengths_list > li + li {
+.ourstrengths > .conteiner > .strengthslist > li + li {
   margin-left: 30px;
 }
 
-.our_strengths > div .our_strengths_list {
+.ourstrengths > div .strengthslist {
   display: flex;
 }
 
@@ -511,7 +511,7 @@ ul {
   margin-top: 20px;
 }
 
-.header_link {
+.navlink {
   margin-left: 50px;
 }
 
@@ -525,7 +525,7 @@ header {
   padding: 0 0 0 0;
 }
 
-.order_conteiner {
+.orderconteiner {
   background-image: url(../images/17.jpg);
   padding: 190px 0px;
 }
@@ -751,13 +751,13 @@ textarea {
   background-color: #F5F4FA;
 }
 
-.our_team {
+.ourteam {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.our_strengths_block {
+.ourstrengthsblock {
   height: 120px;
   display: flex;
   justify-content: center;
@@ -780,7 +780,7 @@ textarea {
   width: 106px;
 }
 
-.our_clients_list > .client_link_card + .client_link_card {
+.ourclientslist > .clientlinkcard + .clientlinkcard {
   margin-left: 30px;
 }
 
@@ -821,12 +821,12 @@ h1 {
   margin-top: 0px;
 }
 
-.our_strengths_item > h3 {
+.ourstrengthsarticle > h3 {
   font-size: 14px;
   line-height: 1.1;
 }
 
-.our_strengths_item > p {
+.ourstrengthsarticle > p {
   color: var(--second-color);
   font-size: 14px;
   line-height: 1.7;
@@ -856,7 +856,7 @@ h2 {
   margin-bottom: 0px;
 }
 
-.our_strengths_topick {
+.ourstrengthstopick {
   text-transform: uppercase;
   margin: 0px 0px 10px 0px;
 }
